@@ -5,7 +5,7 @@ import { PokemonProvider } from './contexts/PokemonProvider';
 import { ROUTES } from './constants/routepaths';
 import Home from './pages/Home';
 
-const PokemonDetails = lazy(() => import(/* webpackPrefetch: true */ "./pages/PokemonDetails"))
+const PokemonDetails = lazy(() => import("./pages/PokemonDetails"))
 
 export default function App() {
   return (
