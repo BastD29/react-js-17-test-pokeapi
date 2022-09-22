@@ -1,4 +1,4 @@
-const POKEMONS_PER_BATCH = 6;
+const POKEMONS_PER_BATCH = 50;
 const baseURL = "https://pokeapi.co/";
 export const initialURL = `${baseURL}api/v2/pokemon?limit=${POKEMONS_PER_BATCH}`;
 
